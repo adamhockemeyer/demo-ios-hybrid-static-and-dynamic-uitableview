@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		0B460EF31BDA66D6006F3960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B460EF21BDA66D6006F3960 /* main.m */; };
 		0B460EF61BDA66D6006F3960 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B460EF51BDA66D6006F3960 /* AppDelegate.m */; };
-		0B460EF91BDA66D6006F3960 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B460EF81BDA66D6006F3960 /* ViewController.m */; };
 		0B460EFC1BDA66D6006F3960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B460EFA1BDA66D6006F3960 /* Main.storyboard */; };
 		0B460EFE1BDA66D6006F3960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B460EFD1BDA66D6006F3960 /* Assets.xcassets */; };
 		0B460F011BDA66D6006F3960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B460EFF1BDA66D6006F3960 /* LaunchScreen.storyboard */; };
+		0B460F0A1BDA6729006F3960 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B460F091BDA6729006F3960 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		0B460EF21BDA66D6006F3960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B460EF41BDA66D6006F3960 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B460EF51BDA66D6006F3960 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0B460EF71BDA66D6006F3960 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0B460EF81BDA66D6006F3960 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0B460EFB1BDA66D6006F3960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B460EFD1BDA66D6006F3960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B460F001BDA66D6006F3960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B460F021BDA66D6006F3960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B460F081BDA6729006F3960 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		0B460F091BDA6729006F3960 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,13 @@
 			children = (
 				0B460EF41BDA66D6006F3960 /* AppDelegate.h */,
 				0B460EF51BDA66D6006F3960 /* AppDelegate.m */,
-				0B460EF71BDA66D6006F3960 /* ViewController.h */,
-				0B460EF81BDA66D6006F3960 /* ViewController.m */,
 				0B460EFA1BDA66D6006F3960 /* Main.storyboard */,
 				0B460EFD1BDA66D6006F3960 /* Assets.xcassets */,
 				0B460EFF1BDA66D6006F3960 /* LaunchScreen.storyboard */,
 				0B460F021BDA66D6006F3960 /* Info.plist */,
 				0B460EF11BDA66D6006F3960 /* Supporting Files */,
+				0B460F081BDA6729006F3960 /* MyTableViewController.h */,
+				0B460F091BDA6729006F3960 /* MyTableViewController.m */,
 			);
 			path = HybridTableExperiment;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B460EF91BDA66D6006F3960 /* ViewController.m in Sources */,
+				0B460F0A1BDA6729006F3960 /* MyTableViewController.m in Sources */,
 				0B460EF61BDA66D6006F3960 /* AppDelegate.m in Sources */,
 				0B460EF31BDA66D6006F3960 /* main.m in Sources */,
 			);
